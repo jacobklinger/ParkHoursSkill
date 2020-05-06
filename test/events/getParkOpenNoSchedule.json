@@ -1,0 +1,121 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.3cc16c3e-e89f-4d71-b688-5268ac80af5b",
+		"application": {
+			"applicationId": "amzn1.ask.skill.2bebffd2-ee89-44fe-aa51-56183cebbe0a"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AGPQRDGP43QV2NSDP2XSHZYZKAY4KIL2JGU75M7B5ZRSOTXKUDLYTCAGDFOSZ536EEORAMTAQFT5CR66PLJH6T4J2LXFNHZSY6EVZS32FWJ6VONMSYLE534JFSIMW42IJ3O5S65INKVQFLRJGSZEUW5DXAAXBRB2ETYQHPYDTDYB7NTZV2W57SJ7U7FUTNIIARPTKLBPL24WCHQ"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.2bebffd2-ee89-44fe-aa51-56183cebbe0a"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AGPQRDGP43QV2NSDP2XSHZYZKAY4KIL2JGU75M7B5ZRSOTXKUDLYTCAGDFOSZ536EEORAMTAQFT5CR66PLJH6T4J2LXFNHZSY6EVZS32FWJ6VONMSYLE534JFSIMW42IJ3O5S65INKVQFLRJGSZEUW5DXAAXBRB2ETYQHPYDTDYB7NTZV2W57SJ7U7FUTNIIARPTKLBPL24WCHQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEIZZM25ADGVTULM5WJ3IAYACETWUY3ENZXVIUDKZRDFNMSSZORH74FG5OY54OVKTZZ5O7MNANLU6C5PNHBMUUFKQT2HYDLFZNJTQQMRHNQEBXCDH2RRXUG3FVV6LT3UOYJ6CCGQRF63BAGKIC3LN3GB55JA",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjJiZWJmZmQyLWVlODktNDRmZS1hYTUxLTU2MTgzY2ViYmUwYSIsImV4cCI6MTU4ODY1NjE0MiwiaWF0IjoxNTg4NjU1ODQyLCJuYmYiOjE1ODg2NTU4NDIsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFBcDdFWU44M1FSWEhQaXh5emlhWlY5SkFFQUFBQUFBQUQ5R212QnJHbm8zaVc5NVVsdVEvMlBtVTI2RVBqOXNTZjdNU3gxZ2dHbFpRSnJFRUxrVHFjMFRnNUIvaW0veHFTbWpFd1A3TEFHN3hmaDJmL3dFa1R5MkkwM1NRRVkzUWdWQmlrZnNxWFoxQk12Ynk3WSt1QVNvc2E3MVdpTGNzbllxMGQ5SzQrcWMzS0h0UURrSTVaZ3BHR3MrR1hIVGI3SXZKdC9nQkhrU1d4QUs2OUhPcHRsOVFWcmltYXBKdFZ6Nm5GT0JxUzR3S0FqT0YrN3pQRGxrWVNSOXhsa3hqOVBrMnhIVnNwelBJY0NMZk1JQkx5akg5ZitPU29wNEZacjNGZ1ZROUF6cXFBZ1dqRFlTWEJCYXJDYnI4OVd1cVllYTVnVy9Cd0lUOUI5RjRDU0tkamV1TDlmelN4RDJEQ3NwWUl1RGlncmhod3BsdkNyZVBUd20rQk16a1AyVHMvT2lZK21EdkZXL3JBOEI4NGhPemliOVlHbUo2N3RKTHBYQmtyaiIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFFSVpaTTI1QURHVlRVTE01V0ozSUFZQUNFVFdVWTNFTlpYVklVREtaUkRGTk1TU1pPUkg3NEZHNU9ZNTRPVktUWlo1TzdNTkFOTFU2QzVQTkhCTVVVRktRVDJIWURMRlpOSlRRUU1SSE5RRUJYQ0RIMlJSWFVHM0ZWVjZMVDNVT1lKNkNDR1FSRjYzQkFHS0lDM0xOM0dCNTVKQSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHUFFSREdQNDNRVjJOU0RQMlhTSFpZWktBWTRLSUwySkdVNzVNN0I1WlJTT1RYS1VETFlUQ0FHREZPU1o1MzZFRU9SQU1UQVFGVDVDUjY2UExKSDZUNEoyTFhGTkhaU1k2RVZaUzMyRldKNlZPTk1TWUxFNTM0SkZTSU1XNDJJSjNPNVM2NUlOS1ZRRkxSSkdTWkVVVzVEWEFBWEJSQjJFVFlRSFBZRFREWUI3TlRaVjJXNTdTSjdVN0ZVVE5JSUFSUFRLTEJQTDI0V0NIUSJ9fQ.byBtCao_e_1UKMXfG1s1GFNJjrFpD7WE_tmqFFJEcM9Oh-4DsGTu1JUCCStcprBJrIp6ylPv9UwIZuHmT7-3yIN-smU7Nz5F8BYoAPd7KgRrZXa5OOpk77BVumwK8iqNbm9-CesdvnzP0f7zbp5ODcw79CrgePeq_bpf6W7WgxW8TeXihk9528COIe4R8qRvTqoiKtNtCazDjg9Z4vTuUikkFUTs8GYek0ZjMvgfY6sUitdUARQE5x5Z3xF2lnBRxj3thP7CncRlZwvSkwS5l0HNzLMEAbPJ6j8Y1FmTDj2M9GI95Am5AB6PSejQ7WBCl_LKHhQjtuWvhjes5PgC2g"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			],
+			"video": {
+				"codecs": [
+					"H_264_42",
+					"H_264_41"
+				]
+			}
+		},
+		"Viewports": [
+			{
+				"type": "APL",
+				"id": "main",
+				"shape": "RECTANGLE",
+				"dpi": 160,
+				"presentationType": "STANDARD",
+				"canRotate": false,
+				"configuration": {
+					"current": {
+						"video": {
+							"codecs": [
+								"H_264_42",
+								"H_264_41"
+							]
+						},
+						"size": {
+							"type": "DISCRETE",
+							"pixelWidth": 1024,
+							"pixelHeight": 600
+						}
+					}
+				}
+			}
+		]
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.7fbd6a39-f9de-4a7c-b6d1-ae444d0bbdcc",
+		"timestamp": "2020-05-05T05:17:22Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "getParkOpen",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"date": {
+					"name": "date",
+					"value": "2020-05-06",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"park": {
+					"name": "park",
+					"value": "magic kingdom",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.2bebffd2-ee89-44fe-aa51-56183cebbe0a.PARK",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "Magic Kingdom",
+											"id": "magicKingdom"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		}
+	}
+}

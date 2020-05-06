@@ -1,0 +1,90 @@
+{
+    "magicKingdom": {
+        "open": "9:00AM",
+        "close": "10:00PM",
+        "extraMagicHours": {
+            "start": "10:00PM",
+            "end": "1:00AM",
+            "type": "AM"
+        },
+        "parades": [
+            {
+                "name": "Disney Festival of Fantasy Parade",
+                "times": [
+                    {
+                        "start": "12:00PM"
+                    },
+                    {
+                        "start": "1:30PM"
+                    },
+                    {
+                        "start": "3:00PM"
+                    }
+                ]
+            },
+            {
+                "name": "Magic Happens",
+                "times": [
+                    {
+                        "start": "12:00PM"
+                    },
+                    {
+                        "start": "1:30PM"
+                    },
+                    {
+                        "start": "3:00PM"
+                    }
+                ]
+            }
+        ],
+        "fireworks": [
+            {
+                "name": "Happily Ever After",
+                "times": [
+                    {
+                        "start": "9:00PM"
+                    }
+                ]
+            },
+            {
+                "name": "Once Upon A Time",
+                "times": [
+                    {
+                        "start": "11:00PM"
+                    }
+                ]
+            }
+        ],
+        "events": [
+            {
+                "name": "Mickey's Not-So-Scary Halloween Party",
+                "times": [
+                    {
+                        "start": "7:00AM",
+                        "end": "12:00PM"
+                    },
+                    {
+                        "start": "12:00PM",
+                        "end": "7:00PM"
+                    },
+                    {
+                        "start": "7:00PM",
+                        "end": "12:00AM"
+                    }
+                ]
+            }
+        ]
+    },
+    "epcot": {
+        "open": "9:00AM",
+        "close": "10:00PM"
+    },
+    "hollywoodStudios": {
+        "open": "9:00AM",
+        "close": "10:00PM"
+    },
+    "animalKingdom": {
+        "open": "9:00AM",
+        "close": "10:00PM"
+    }
+}
