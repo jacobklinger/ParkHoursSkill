@@ -22,8 +22,8 @@ module.exports = {
             "EVENT_ON_DATE" : " on {{eventTimes.date}}",
             "NO_FIREWORKS" : "There are no Fireworks or Nighttime Spectaculars scheduled on {{parkHours.date}} at {{parkHours.park}}",
             "NO_PARADES" : "There are no parades scheduled on {{parkHours.date}} at {{parkHours.park}}",
-            "OPEN_COVID" : ". However, in view of the current situation and in line with direction provided by government officials, Walt Disney World Resort will remain closed until further notice.",
-            "CLOSED_COVID" : ". In view of the current situation and in line with direction provided by government officials, Walt Disney World Resort will remain closed until further notice."
+            "OPEN_COVID" : "",
+            "CLOSED_COVID" : ""
         }
     }
 }
