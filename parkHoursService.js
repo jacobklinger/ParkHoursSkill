@@ -1,4 +1,4 @@
-const dynamoService = require("./dynamoService");
+const apiService = require("./apiService");
 
 const parkHoursService = {};
 
@@ -6,7 +6,9 @@ var parkNames = {
     "magicKingdom": "Magic Kingdom",
     "epcot": "Epcot",
     "hollywoodStudios": "Disney's Hollywood Studios",
-    "animalKingdom": "Disney's Animal Kingdom Theme Park"
+    "animalKingdom": "Disney's Animal Kingdom Theme Park",
+    "disneyland" : "Disneyland Park",
+    "disneyCaliforniaAdventure" : "Disney California Adventure Park"
 };
 
 parkHoursService.getParkHours = async function (date, park) {
@@ -24,22 +26,22 @@ parkHoursService.getParkHours = async function (date, park) {
         throw new InvalidParkException("Failed to recognize park.");
     }
 
-    var data = await dynamoService.getByDate(date);
+    var data = await apiService.get(date);
     if (data == null) {
-        throw new Error("Failed to get data fromy Dynamo.")
+        throw new Error("Failed to get data from the API.")
     }
 
-    parkData = data[park];
+    parkData = data.parks[park];
 
     if (parkData != null) {
-        if (parkData.open != null) {
-            parkHours.open = parkData.open;
+        if (parkData.hours.start != null) {
+            parkHours.open = parkData.hours.start;
         }
-        if (parkData.close != null) {
-            parkHours.close = parkData.close;
+        if (parkData.hours.end != null) {
+            parkHours.close = parkData.hours.end;
         }
-        if (parkData.extraMagicHours != null) {
-            parkHours.extraMagicHours = parkData.extraMagicHours;
+        if (parkData.parkHopperHours != null) {
+            parkHours.parkHopperHours = parkData.parkHopperHours;
         }
         if (parkData.parades != null) {
             parkHours.parades = parkData.parades;
